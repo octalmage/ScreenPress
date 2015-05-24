@@ -1,0 +1,6 @@
+{
+  "name": "ScreenPress",
+  "dependencies": {
+    "wordpress": "^1.1.0"
+  }
+}
