@@ -11,6 +11,7 @@ var client = wordpress.createClient(
 
 var imageFile = fs.readFileSync("test.png");
 
+var timestamp = moment().format("YYYY-MM-DD [at] H.mm.ss A");
 client.uploadFile(
 {
 	"name": "test.png",
